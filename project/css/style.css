@@ -1,0 +1,25 @@
+/*-------- Global Reset --------*/
+@import "normalize.css";
+
+/*---------------- Color Palette --------------------------
+#edc580		Tan
+#11490b		Dark Green
+-----------------------------------------------------------*/
+
+body{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	background: #edc580;
+	font: 16px 'Trebuchet MS', sans-serif;
+}
+
+header{
+	width: 960px;
+	height: 200px;
+	margin: 15px 0 30px;
+}
+
+nav{
+	float: right;
+}
