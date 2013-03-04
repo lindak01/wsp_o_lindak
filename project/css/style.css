@@ -2,17 +2,37 @@
 @import "normalize.css";
 
 /*---------------- Color Palette --------------------------
-#edc580		Tan
-#11490b		Dark Green
+#ceba4c		Light Mustard
+#004204		Dark Green
+#580909		Wine
+#522079		Grape Purple
 -----------------------------------------------------------*/
 
 body{
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 0 20px 20px 20px ;
-	background: #fff;
+	padding: 0;
+	background: #ceba4c;
+	font: 16px 'Bookman Old Style', serif;
+}
+
+#top{
+	width: 99.47%;
+	height: 211px;
+	background: #580909;
+	margin: 0 3px 0 0;
+	padding: 0;
+	color: #fff;
+}
+
+#logo{
+	margin: 15px 0 0 25px;
+}
+
+#wrapper{
 	border: 3px solid #000;
-	font: 16px 'Trebuchet MS', sans-serif;
+	padding: 0;
+	background: #fff;	
 }
 
 header{
@@ -25,12 +45,8 @@ h1{
 	text-align: center;
 	font: 42px 'Zapfino', cursive;
 	padding: 15px 0;
-}
-
-#mainimg{
-	width: 700px;
-	margin: 0 130px 0 130px;
-	border: 3px solid #11490b; 	
+	margin: 50px 0 0 0;
+	color: #580909;
 }
 
 header aside{
@@ -42,12 +58,24 @@ header aside{
 	position:absolute;
 	right: 250px;
 	top:40px;
+	font: 1.5em 'Perpetua', serif;
+}
+
+#button{
+	width: 30%; /*100px;*/
+	height: 25px;
+	background: url(../images/button_bg_gradient.jpg);
+	border: 1px solid #000;
+	border-radius: 8px;
+	text-align: center;
+	margin: 0 0 0 35%;
+	color: #fff;
 }
 /*----------------------- Links ------------------------------*/
 
 a{
 	text-decoration: none;
-	color: #11490b;
+	color: #000;
 }
 
 a:visited{
@@ -55,11 +83,11 @@ a:visited{
 }
 
 a:hover{
-	color: #edc580;
+	color: #522079;
 }
 
 a:active{
-	color: #000;
+	color: #ceba4c;
 }
 
 /*----------------------- Navigation ---------------------------*/
@@ -79,6 +107,95 @@ nav li{
 }
 
 /*------------------------- Footer ---------------------------------*/
-footer{
+#bottom{
 	text-align: center;
+	width: 100%;
+	height: 70px;
+	background: #580909;
+	margin: 45px 0 0 0;
+}
+
+footer{
+	float: right;
+	margin: 10px 145px 15px 0;
+	color: #fff;
+}
+
+/*----------------------- Home Page --------------------------------*/
+#mainimg{
+	width: 700px;
+	margin: 0 130px 0 130px;
+	border: 3px solid #11490b; 	
+}
+
+#homep{
+	margin: 0 20px 0 20px;
+}
+
+/*------------------------ About Page -------------------------------*/
+#aboutp{
+	margin: 0 20px 0 20px;
+}
+
+#address{
+	text-align: center;
+}
+
+#map{
+	margin: 0 200px 20px 245px;
+	border: 3px solid;
+}
+
+#directions{
+	text-align: center;
+	margin: 0 20px 0 20px;
+}
+
+/*----------------------- Cooking Page ----------------------------*/
+#schedule{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#cookingp{
+	margin: 0 20px 0 20px;
+}
+
+/*----------------------- Private Page ------------------------------*/
+#privatep{
+	margin: 0 20px 0 20px;
+}
+
+/*------------------------ Shop Page ---------------------------------*/
+ #giftp{
+	margin: 0 20px 0 20px;
+}
+/*----------------------- Register Page -----------------------------*/
+#registerp{
+	margin: 0 20px 0 20px;
+}
+
+form#register{
+	background: #eee9cb;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	width: 600px;
+}
+
+form#register div{
+	background: #b9cf6a;
+	background: rgba(255,255,255,.3);
+	border-color: #996dc5;
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
 }
